@@ -1,0 +1,29 @@
+// HEADER
+
+.header {
+  width: 100%;
+}
+.header-container {
+  padding: 3rem 0;
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  h1 {
+    font: {
+      family: $ff-ssp;
+      weight: 900;
+      size: 3rem;
+    }
+    margin: 1.2rem 0 0;
+    color: $clr-darken;
+  }
+  h4 {
+    font: {
+      family: $ff-ssp;
+      weight: 400;
+      size: 0.9rem;
+    }
+    margin: 0;
+    color: $clr-darken;
+  }
+}
